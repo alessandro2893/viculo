@@ -1,1 +1,43 @@
-<ion-nav [root]="rootPage"></ion-nav>
+<ion-menu [content]="content">
+  <ion-header>
+    <ion-toolbar color="primary">
+      <ion-title>Menu</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content >
+    <ion-list>
+      <button ion-item (click)="abrirPagina(principal)">
+        Menu Principal
+      </button>
+      <button ion-item (click)="abrirPagina(pagina1)">
+        Gestión de Auspiciamiento
+      </button>
+      <button ion-item (click)="abrirPagina(pagina2)">
+        Comunicando lo que hacemos
+      </button>
+      <button ion-item (click)="abrirPagina(pagina3)">
+        Gestión de Comités <br>de Vinculos Solidarios
+      </button>
+      <button ion-item (click)="abrirPagina(pagina4)">
+        Gestión Tecnológica <br>del Auspiciamiento
+      </button>
+      <button ion-item (click)="abrirPagina(pagina5)">
+        Elementos complementarios <br>de las operaciones
+      </button>
+
+      <!-- <button ion-item (click)="abrirPagina(acordionprueba)">
+        acordion
+      </button> -->
+
+      <!-- <button ion-item (click)="abrirPagina(eventsPage)">
+        Events
+      </button> -->
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+
+
+
+
+<ion-nav [root]="rootPage" #content></ion-nav>

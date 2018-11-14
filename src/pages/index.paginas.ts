@@ -1,0 +1,35 @@
+
+
+export { PrincipalPage } from "./principal/principal";
+export { AjustesPage } from "./ajustes/ajustes";
+export { Ajustes2Page }  from "./ajustes2/ajustes2";
+export { ModalPage  } from "./modal/modal";
+export { Pagina1Page } from "./pagina1/pagina1";
+export { G1a1Page } from "./g1a1/g1a1";
+export { G1a2Page } from "./g1a2/g1a2";
+export { G1a3Page } from "./g1a3/g1a3";
+export { Pagina2Page } from "./pagina2/pagina2";
+export { G2a1Page } from "./g2a1/g2a1";
+export { G2a2Page } from "./g2a2/g2a2";
+export { G2a3Page } from "./g2a3/g2a3";
+export { Pagina3Page } from "./pagina3/pagina3";
+export { G3a1Page } from "./g3a1/g3a1";
+export { G3a2Page } from "./g3a2/g3a2";
+export { G3a3Page } from "./g3a3/g3a3";
+export { G3a4Page } from "./g3a4/g3a4";
+export { G3a5Page } from "./g3a5/g3a5";
+export { Pagina4Page } from "./pagina4/pagina4";
+export { G4a1Page } from "./g4a1/g4a1";
+export { G4a2Page } from "./g4a2/g4a2";
+export { G4a3Page } from "./g4a3/g4a3";
+export { G4a4Page } from "./g4a4/g4a4";
+export { Pagina5Page } from "./pagina5/pagina5";
+export { G5a1Page } from "./g5a1/g5a1";
+export { G5a2Page } from "./g5a2/g5a2";
+export { G5a3Page } from "./g5a3/g5a3";
+export { G5a4Page } from "./g5a4/g5a4";
+export { TabsPage } from "./tabs/tabs";
+export { AcordionpruebaPage } from "./acordionprueba/acordionprueba";
+export { CamaraPage } from "./camara/camara";
+export { KoboPage } from "./kobo/kobo";
+export { AprendiendoPage } from "./aprendiendo/aprendiendo";

@@ -1,0 +1,53 @@
+
+<ion-header>
+
+  <ion-navbar color="primary">
+
+
+    <ion-buttons>
+      <button ion-button
+              icon-only (click)="MostrarMenu()">
+        <ion-icon name="menu"></ion-icon>
+        <ion-title font-size="large" text-center>Caja de Herramienta del <br> Vinculo Solidario </ion-title>
+        <img src="../../assets/comprimir/Logo_Ayuda-blancomin.png"  style="
+        width: 40px;
+        margin-right: auto;
+        ">
+      </button>
+      <!-- <img src="assets/comprimir/Logo_Ayuda-blanco.png"> -->
+
+    </ion-buttons>
+
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content   >
+  <ion-card *ngFor="let conte of contenidos" (click)="verDetalles( conte )">
+
+  <img [src]="conte.imagen"/>
+  <ion-card-content>
+  <expandable [expandHeight]="itemExpandHeight" [expanded]="itemExpanded"></expandable>
+
+    <!-- {{conte.texto}} -->
+
+  </ion-card-content>
+</ion-card>
+
+
+
+</ion-content>
+
+
+<!--
+<ion-card *ngFor="let conte of contenidos">
+
+<img [src]="conte.imagen"/>
+<ion-card-content>
+<expandable [expandHeight]="itemExpandHeight" [expanded]="itemExpanded"></expandable>
+
+  {{conte.texto}}
+
+</ion-card-content>
+</ion-card> -->
